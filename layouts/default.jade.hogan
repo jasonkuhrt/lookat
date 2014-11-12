@@ -1,0 +1,20 @@
+doctype html
+
+html
+  head
+    title Solo: {{title}}
+    meta(charset='uft-8')
+
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+    meta(name='apple-mobile-web-app-capable' content='yes')
+    meta(name='mobile-web-app-capable' content='yes')
+
+    link(type='text/css' rel='stylesheet' href='/build/dev/index.css')
+    script(type='text/javascript' src='/build/react.0.10.0.js')
+    script(type='text/javascript' src='/build/dev/index.js')
+
+  body
+    {{#components}}
+    section.solo.solo--{{slug}}
+      include {{includePath}}
+    {{/components}}

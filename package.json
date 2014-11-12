@@ -1,0 +1,26 @@
+{
+  "name": "lookat",
+  "private": true,
+  "version": "0.0.0",
+  "description": "lookat",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jasonkuhrt/lookat.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasonkuhrt/lookat/issues"
+  },
+  "homepage": "https://github.com/jasonkuhrt/lookat",
+  "dependencies": {
+    "bluebird": "^2.3.11",
+    "debug": "^2.1.0",
+    "hogan.js": "^3.0.2",
+    "jade": "^1.7.0",
+    "minimist": "^1.1.0"
+  }
+}
